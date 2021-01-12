@@ -30,6 +30,15 @@
         <url-pattern>/*</url-pattern>
     </servlet-mapping>
     
+    <servlet>
+        <servlet-name>SimpleCXFNonSpringServlet</servlet-name>
+        <servlet-class>com.avantica.serviciosparte2.config.SimpleCXFNonSpringServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SimpleCXFNonSpringServlet</servlet-name>
+        <url-pattern>/ws/*</url-pattern>
+    </servlet-mapping>
+    
     <session-config>
         <session-timeout>
             30
